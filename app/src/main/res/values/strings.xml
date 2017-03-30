@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kiwi3Launcher</string>
+    <string name="app_select_title">Yêu Thích</string>
+    <string name="app_op_clear_data">Clear Data</string>
+    <string name="app_op_force_stop">Force Stop</string>
+    <string name="app_op_uninstall">Uninstall</string>
+    <string name="app_data_cleaned">Data has been cleaned</string>
+</resources>

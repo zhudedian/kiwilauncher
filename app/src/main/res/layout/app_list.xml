@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laun_bg" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="ứng dụng"
+        android:textColor="@color/colorTextGrayWhite"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="60dp"/>
+    
+    
+    <GridView
+        android:id="@+id/app_grid"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:numColumns="6"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:verticalSpacing="10dp"
+        android:scrollbars="none"
+        android:horizontalSpacing="10dp"
+        />
+
+
+</RelativeLayout>

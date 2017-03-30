@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ider.kiwilauncherpackage.MainActivity"
+    android:id="@+id/home_view"
+    android:orientation="vertical"
+    android:layout_width="1280dp"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.ider.kiwilauncherpackage.views.HomeLargeView
+            android:id="@+id/main_apps"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="372dp"
+            android:layout_height="523dp"
+            android:background="@drawable/item_bg"
+            android:tag="10"
+            android:nextFocusRight="@+id/home_small_image11"/>
+
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image11"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="307dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:tag="11"/>
+
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image12"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="529dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:tag="12"/>
+
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image13"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="752dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:tag="13"/>
+
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image14"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="974dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:nextFocusRight="@+id/setting_large_image21"
+            android:tag="14"/>
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image15"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="397dp"
+            android:layout_marginLeft="307dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:tag="15" />
+
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image16"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="397dp"
+            android:layout_marginLeft="529dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:tag="16" />
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image17"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="397dp"
+            android:layout_marginLeft="752dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:tag="17" />
+        <com.ider.kiwilauncherpackage.views.HomeSmallView
+            android:id="@+id/home_small_image18"
+            style="@style/MainItemStyle"
+            android:layout_marginTop="397dp"
+            android:layout_marginLeft="972dp"
+            android:layout_width="295dp"
+            android:layout_height="295dp"
+            android:background="@drawable/item_bg"
+            android:tag="18"
+            android:nextFocusRight="@+id/setting_large_image21"/>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

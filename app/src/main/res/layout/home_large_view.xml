@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/home_large_image1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/all_app"/>
+    <ImageView
+        android:id="@+id/home_large_image2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="67dp"
+        android:src="@mipmap/application"/>
+    <TextView
+        android:id="@+id/home_large_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorTextGrayWhite"
+        android:textSize="20sp"
+        android:text="ứng dụng"/>
+
+
+</RelativeLayout>

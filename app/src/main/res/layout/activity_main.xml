@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:background="@drawable/laun_bg"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/vendor_logo"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+
+
+    <Button
+        android:id="@+id/hom_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="80dp"
+        android:text="Ứ.DỤng"
+        android:textColor="@color/colorTextGrayWhite"
+        android:textSize="25sp"
+        android:focusable="true"
+        android:background="@drawable/button_background"/>
+    <Button
+        android:id="@+id/set_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="180dp"
+        android:text="Cài Đặt"
+        android:textSize="25sp"
+        android:textColor="@color/colorTextGrayWhite"
+        android:focusable="true"
+        android:background="@drawable/button_background"/>
+
+
+    <include layout="@layout/state_layout"/>
+
+    <include layout="@layout/home_view" />
+
+    <include layout="@layout/setting_view" />
+
+
+</FrameLayout>
